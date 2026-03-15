@@ -19,7 +19,7 @@ Datasets used in this project:
 # Architecture
 The architecture leverages the following Azure services:
 
-<img src="">
+
 * Azure Data Lake Storage Gen2: Stores raw, processed, and curated datasets across Bronze, Silver, and Gold layers.
 * Azure Data Factory: Orchestrates ingestion of taxi trip data from the HTTP source into the Data Lake.
 * Azure Databricks: Performs large-scale data transformation using PySpark and SQL.
@@ -56,7 +56,7 @@ Two linked services are created:
 * Source: HTTP (NYC Taxi Data Website)
 * Destination: Azure Data Lake Storage Gen2
 
-<img src="YOUR_LINKED_SERVICE_IMAGE" />
+<img src="" />
 
 ### Data Factory Pipeline
 A pipeline is created to download the Green Taxi Trip dataset and load it into the Bronze layer.
