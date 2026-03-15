@@ -18,7 +18,7 @@ Datasets used in this project:
 
 # Architecture
 The architecture leverages the following Azure services:
-
+<img src="Images/architechture.jpg" />
 
 * Azure Data Lake Storage Gen2: Stores raw, processed, and curated datasets across Bronze, Silver, and Gold layers.
 * Azure Data Factory: Orchestrates ingestion of taxi trip data from the HTTP source into the Data Lake.
