@@ -6,6 +6,14 @@ This project demonstrates an end-to-end data engineering pipeline built on Micro
 
 The architecture follows the **Medallion Architecture (Bronze, Silver, Gold)** to ensure scalable and structured data processing. Azure Data Factory is used for data ingestion, Azure Data Lake Storage Gen2 is used for storage, Databricks performs transformations using PySpark and SQL, and Power BI is used for analytics and visualization.
 
+# Tech Stack
+
+* Cloud Platform: Microsoft Azure
+* Azure Services: Azure Data Factory, Azure Data Lake Storage Gen2, Azure Databricks, Microsoft Entra ID
+* Programming Languages: PySpark, SQL
+* Data Formats: Parquet, CSV, Delta Lake
+* Visualization: Power BI
+
 # Data Source
 NYC Taxi & Limousine Commission Data  
 https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
@@ -142,13 +150,7 @@ This allows users to analyze:
 
 
 
-# Tech Stack
 
-* Cloud Platform: Microsoft Azure
-* Azure Services: Azure Data Factory, Azure Data Lake Storage Gen2, Azure Databricks, Microsoft Entra ID
-* Programming Languages: PySpark, SQL
-* Data Formats: Parquet, CSV, Delta Lake
-* Visualization: Power BI
 
 # Features
 
